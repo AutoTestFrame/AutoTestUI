@@ -3,8 +3,8 @@
 import unittest
 import json
 import hashlib
-from common.read_excel import Excel
-from api_tests.api_obj import HttpClientTest
+from tools.read_excel import Excel
+from interface.api_obj import HttpClientTest
 
 
 def md5(data):
